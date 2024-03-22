@@ -9,6 +9,7 @@ function App() {
     'strawberry'
   ];
  const search = data.filter((item)=>(item.includes(value)))
+ console.log(search)
   return (
     <div className="App">
       <input placeholder='Please type to search' value={value} onChange={(e) => setValue(e.target.value)} />
