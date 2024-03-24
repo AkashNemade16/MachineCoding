@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.stopwatch_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
